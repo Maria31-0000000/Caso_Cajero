@@ -70,7 +70,7 @@ public class CAJERO {
 			    	 System.out.println("-----------");
 			    	 System.out.println("R E T I R O");
 			    	 System.out.println("-----------");
-			    	 System.out.println("¿Cuanto desea retirar?");    	 
+			    	 System.out.println("Â¿Cuanto desea retirar?");    	 
 			    	 monto = sc.nextInt();  	
 		    	 
 			    	 if (arrSaldo[p] == 0) {
@@ -89,7 +89,7 @@ public class CAJERO {
 			    			 System.out.println("Saldo no alcanzable para esa cantidad de retiro");
 			    			 System.out.print("Inserte monto a retirar: ");    	 
 					    	 monto = sc.nextInt();
-					    	 System.out.println("Retiro con éxito" + monto);
+					    	 System.out.println("Retiro con Ã©xito" + monto);
 					    	 nuevo_saldo = arrSaldo[p]- monto;
 					    	 System.out.println("Nuevo Saldo es: "+ nuevo_saldo);
 					    	 System.out.println("GRACIAS POR USAR NUESTRO CAJERO");
@@ -101,9 +101,7 @@ public class CAJERO {
 
 
 
-	if (arrSaldo[p] >= 13)
-		System.out.println("Estado..........: Aprobado");
-	else System.out.println("Estado..........: Desaprobado");
+
 }
 
 
